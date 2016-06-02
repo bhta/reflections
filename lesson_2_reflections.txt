@@ -1,0 +1,4 @@
+Q1 What happens when you initialize a repository? Why do you need to do it?
+
+- Initialization creates a .git folder with metadata to manage versions. No commits are created. All filtes are shown as untracked. This can be checked with 'git status' after running 'git init'. 
+
