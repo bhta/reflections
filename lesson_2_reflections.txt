@@ -2,3 +2,6 @@ Q1 What happens when you initialize a repository? Why do you need to do it?
 
 - Initialization creates a .git folder with metadata to manage versions. No commits are created. All filtes are shown as untracked. This can be checked with 'git status' after running 'git init'. 
 
+Q2 How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+- Staging area stages individual files using 'git add', before the commit. They can be unstaged too. Once relevant files are staged, 'git commit' will commit all files in staging to the repository. Working directory is the folder that contains source files, and the .git hidden folder with metadata on all snapshots. Repository is the collection of source and version metadata files under git. 
